@@ -8,7 +8,7 @@ const handleClick = (ramen) => {
   // Add code
       const detailImg = document.querySelector("#ramen-detail > .detail-image");
       const detailName = document.querySelector("#ramen-detail > .name");
-      const detailRestaurant = document.querySelector("#ramen-detail > .restaurant");
+      const detailRestaurant = document.querySelector("#ramen-detail > .restaurant"); //this line selects the first element with the class "restaurant" that is a direct child of an element with the ID "ramen-detail"
       const detailsRating = document.getElementById("rating-display");
       const detailsComment = document.getElementById("comment-display");
 
